@@ -6,7 +6,6 @@ import Instagram from '../assets/img/logo-instagram.png';
 import Twitter from '../assets/img/logo-twitter.png';
 
 import Logo from '../assets/svg/logo.svg';
-import WhatsApp from '../assets/svg/whatssapp.svg';
 
 export default function Footer() {
   return (
@@ -30,9 +29,7 @@ export default function Footer() {
         <p className='text-white mt-[39px] font-bold mb-8'>
           Copyright© 2023 | Dev Barbearia - Todos os direitos reservados.
         </p>
-        <a href='#' className='absolute right-10 mb-5'>
-          <Image src={WhatsApp} alt='Botao whatsapp' width={73} height={73} />
-        </a>
+        
       </div>
     </footer>
   );

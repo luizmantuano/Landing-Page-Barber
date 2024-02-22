@@ -45,7 +45,13 @@ export default function Header() {
               className='flex w-[155px] items-center justify-center p-1 border rounded-sm hover:bg-red-500 hover:border-red-500'
               data-aos='fade-down'
             >
-              <span className='text-white'>Agendar horário</span>
+              <a
+                href='https://api.whatsapp.com/send?phone=5500000000000&text=Quero%20fazer%20um%20agendamento%20hoje!'
+                target='_blank'
+                className='text-white'
+              >
+                Agendar horário
+              </a>
             </button>
           </div>
         </nav>

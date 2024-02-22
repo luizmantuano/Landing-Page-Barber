@@ -11,8 +11,14 @@ const config: Config = {
       backgroundImage: {
         'bg-header': "url('/bg.svg')",
       },
+      screens: {
+        'mobile-s': '320px',
+        'mobile-m': '375px',
+        'mobile-l': '425px',
+        '3xl': '1884px',
+      },
       colors: {
-        'bg': '#06121E',
+        bg: '#06121E',
       },
     },
   },

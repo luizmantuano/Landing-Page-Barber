@@ -16,14 +16,14 @@ export default function Services() {
     <section className='flex flex-col justify-center items-center'>
       <div className='flex flex-col justify-center items-center mt-[58px] w-[900px]'>
         <h2 className='text-bg font-bold text-[44px]'>SERVIÇOS</h2>
-        <p className='mt-[24px] text-center text-[18px] font-medium'>
+        <p className='mt-[24px] text-center text-[18px] font-medium max-w-[400px] md:max-w-[1000px]'>
           Lorem ipsum dolor sit amet consectetur. Ornare eget pellentesque proin risus.
           Orci proin morbi vestibulum convallis leo vestibulum mus. Non duis augue eros
           mattis a quis sem sodales.
         </p>
       </div>
 
-      <section className='flex flex-row gap-10 mt-[44px]  justify-center items-center'>
+      <section className='flex flex-col md:flex-row gap-10 mt-[44px]  justify-center items-center'>
         <div
           className='flex flex-col shadow-2xl rounded-3xl overflow-hidden'
           data-aos='fade-up'

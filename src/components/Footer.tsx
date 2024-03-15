@@ -25,11 +25,10 @@ export default function Footer() {
       <div className='mt-[39px]'>
         <Image src={Logo} alt='Logo barbearia' width={150} height={150} />
       </div>
-      <div className='flex flex-row flex-1 items-end '>
-        <p className='text-white mt-[39px] font-bold mb-8'>
+      <div className='flex flex-row  items-end '>
+        <p className='text-white mt-[39px] font-bold mb-8 text-center'>
           Copyright© 2023 | Dev Barbearia - Todos os direitos reservados.
         </p>
-        
       </div>
     </footer>
   );

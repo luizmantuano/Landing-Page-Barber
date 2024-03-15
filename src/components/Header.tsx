@@ -16,8 +16,8 @@ export default function Header() {
 
   return (
     <div className='flex  items-center justify-center bg-bg-header bg-center bg-cover'>
-      <header className='w-full h-[815px]'>
-        <nav className='flex flex-row justify-between mt-10'>
+      <header className='md:w-full w-[620px] h-[815px]'>
+        <nav className='flex flex-col items-center md:flex-row md:justify-between mt-10'>
           <div className='flex flex-row h-8 gap-3 ml-8' data-aos='fade-down'>
             <a href='#' className='hover:-translate-y-1'>
               <Image src={Facebook} alt='facebook' />
@@ -29,7 +29,7 @@ export default function Header() {
               <Image src={Twitter} alt='facebook' />
             </a>
           </div>
-          <div className='header-logo' data-aos='fade-up' data-aos-delay='300'>
+          <div className='header-logo mt-[55px]' data-aos='fade-up' data-aos-delay='300'>
             <Image
               src={Logo}
               alt='Logo da barbearia'
@@ -42,7 +42,7 @@ export default function Header() {
           </div>
           <div className='mr-8'>
             <button
-              className='flex w-[155px] items-center justify-center p-1 border rounded-sm hover:bg-red-500 hover:border-red-500'
+              className='w-[155px] items-center justify-center p-1 border rounded-sm hover:bg-red-500 hover:border-red-500 hidden md:flex'
               data-aos='fade-down'
             >
               <a
@@ -61,10 +61,10 @@ export default function Header() {
           data-aos='fade-up'
           data-aos-delay='400'
         >
-          <h1 className='text-[48px] text-center font-bold'>
-            ESTILO É UM REFLEXO DA SUA <br /> ATITUDE E SUA PERSONALIDADE.
+          <h1 className='text-[34px] md:text-[48px] text-center font-bold'>
+            ESTILO É UM REFLEXO DA SUA  ATITUDE E SUA PERSONALIDADE.
           </h1>
-          <p className='text-[18px] mt-[7px]'>Horário de funcionamento: 09:00 ás 19:00</p>
+          <p className='md:text-[18px] mt-[7px]'>Horário de funcionamento: 09:00 ás 19:00</p>
           <button className='bg-red-500 w-[200px] h-[50px] mt-[58px] hover:scale-110 ease-in-out duration-300 delay-150 hover:animate-spin'>
             <a
               href='https://api.whatsapp.com/send?phone=5500000000000&text=Quero%20fazer%20um%20agendamento%20hoje!'

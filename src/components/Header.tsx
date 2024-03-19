@@ -61,7 +61,7 @@ export default function Header() {
           data-aos='fade-up'
           data-aos-delay='400'
         >
-          <h1 className='text-[34px] md:text-[48px] text-center font-bold'>
+          <h1 className='text-[34px] md:text-[48px] md:max-w-[900px] text-center font-bold'>
             ESTILO É UM REFLEXO DA SUA  ATITUDE E SUA PERSONALIDADE.
           </h1>
           <p className='md:text-[18px] mt-[7px]'>Horário de funcionamento: 09:00 ás 19:00</p>

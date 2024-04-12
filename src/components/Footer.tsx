@@ -27,7 +27,7 @@ export default function Footer() {
       </div>
       <div className='flex flex-row  items-end '>
         <p className='text-white mt-[39px] font-bold mb-8 text-center'>
-          Copyright© 2023 | Dev Barbearia - Todos os direitos reservados.
+          Copyright© 2024 | Dev Barbearia - Todos os direitos reservados.
         </p>
       </div>
     </footer>
